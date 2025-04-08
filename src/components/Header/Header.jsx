@@ -39,7 +39,7 @@ const Header = () => {
           >
             <NavLink to="">Properties</NavLink>
 
-            <a href="mailto:zainkeepscode@gmail.com">Contact</a>
+            <a href="mailto:tchasingajacques@gmail.com">Contact</a>
 
             {/* add property */}
             <div>Add Property</div>
