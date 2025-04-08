@@ -17,11 +17,8 @@ const Header = () => {
   const { validateLogin } = useAuthCheck();
 
 
-  const handleAddPropertyClick = () => {
-    if (validateLogin()) {
-      setModalOpened(true);
-    }
-  };
+
+
   return (
     <section className="h-wrapper" style={{ background: headerColor }}>
       <div className="flexCenter innerWidth paddings h-container">
